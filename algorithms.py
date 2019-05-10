@@ -138,7 +138,7 @@ def alg_iteration(forbidden, zamjene, limits, sts, requests, ag, overlaps):
 
 '''
 - Main algorithm of this optimization procedure
-- Hybrid algorithm - combination simulated annealing algorithm and tabu algorithm
+- Hybrid algorithm - combination of simulated annealing algorithm and tabu algorithm
 - main idea: by removing some substitution(request) in current solution maybe we can free space for one 
   or more better substitutions. We ignore removed substitution when looking for new valid substitutions (tabu)
   If we get better solution, we accept it, otherwise we stochastically decide whether we will accept it or not.

@@ -1,11 +1,12 @@
 # HMO project (won 3rd place)
 
+- Authors: Marin Krešo, Stjepan Petruša
 - Students of FER have possibility to change group for the 
 some course they are attending
 - Our task was to create optimization procedure to maximize evaluation score
 
 ### OPTIMIZATION ALGORITHM DESCRIPTION
-My optimization algorithm is made up of three sequential algorithms/procedures
+Our optimization algorithm is made up of three sequential algorithms/procedures
 1. greedy algorithm - simple algorithm that iterates over substitution requests
 and approves each request if conditions and constraints are satisfied (greedily).
  It is repeated n times (cause some previous invalid requests are valid now after some
